@@ -1,0 +1,69 @@
+{% extends "base.html" %}
+
+{% load i18n mezzanine_tags %}
+
+{% block full_meta_title %}
+{% if settings.SITE_TITLE %}{{ settings.SITE_TITLE }}
+{% if settings.SITE_TAGLINE %} - {{ settings.SITE_TAGLINE }}{% endif %}
+{% else %}{% trans "Home" %}{% endif %}
+{% endblock %}
+
+{% block title %}
+
+{% endblock %}
+
+{% block breadcrumb_menu %}
+
+{% endblock %}
+
+{% block full %}
+<div id="topblock" class="row">
+
+<div id="toptext" class="span6 left">
+
+    <h1>{% trans "Get the obscure sequels to your favorite stories!" %}</h1>
+    <ul id="toplist">
+        <li>Ever wonder what happened next?</li>
+        <li>Did his friend ever get away safely to France?</li>
+        <li>What about the boy and the girl; did they ever marry?</li>
+        <li>Get the answers here; we stock the whole story!</li>
+    </ul>
+
+</div>
+
+<div class="span6 right">
+    <img class="thumbnail" src="http://ipsumimage.appspot.com/440x240" />
+</div>
+
+</div><!-- /row -->
+
+<div class="row">
+
+<div class="span4">
+
+    <h2>The Problem</h2>
+    <p>We often wish to find out what happened next; did the promising youth turn out well? Did the boy get the girl? And so forth.</p>
+    <p>And often our favorite authors have answered these questions in the form of sequels. However, these sequels can be obscure or 
+    out of print. Robert Louis Stevenson's Kidnapped is far more famous (and easier to find) than its sequel Catriona. 
+    The Princess and the Goblin is a wonderful and famous story, but that story is completed in the lesser-known work, The Princess and
+    Curdie. Many of us have taken a book home to enjoy, only to find that the rest of the story was out of print, and available in the
+    public library if we were lucky.</p>
+
+</div>
+<div class="span4">
+
+    <h2>The Solution</h2>
+    <p>At The Whole Story, we stock sequels and prequels to your favorite works. You can buy omnibus editions as well as boxed sets, 
+    or just buy the stories in a series one by one! Our promise to you is that we wil have the next book in the series. </p>
+
+</div>
+<div class="span4">
+
+    <h2>Topic</h2>
+    <p>Aliquam aliquam laoreet eleifend. Nulla ac risus sed nisi rutrum facilisis. Nulla pharetra leo egestas felis porttitor ornare id at sem. Praesent vitae lorem erat, posuere iaculis dolor. Maecenas adipiscing lectus sit amet tellus lacinia nec blandit libero dignissim.</p>
+
+</div>
+
+</div><!-- /row -->
+
+{% endblock %}

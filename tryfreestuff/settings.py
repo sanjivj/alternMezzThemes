@@ -123,6 +123,10 @@ SESSION_EXPIRE_AT_BROWSER_CLOSE = True
 
 SITE_ID = 1
 
+SITE_TITLE = "Whole Story"
+
+SITE_TAGLINE = "For those who wonder what happened after..."
+
 # If you set this to False, Django will make some optimizations so as not
 # to load the internationalization machinery.
 USE_I18N = False
@@ -205,6 +209,7 @@ TEMPLATE_DIRS = (os.path.join(PROJECT_ROOT, "templates"),)
 
 INSTALLED_APPS = (
     # "mezzanine_themes.html5_boilerplate",
+    "mezzanine_themes.bookShoppe",
     "mezzanine_themes.business",
     "django.contrib.admin",
     "django.contrib.auth",
