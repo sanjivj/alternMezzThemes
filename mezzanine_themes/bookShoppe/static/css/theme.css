@@ -5,8 +5,18 @@ body {
 }
 
 .container {
-    background: yellow;
+    background: #00FFFF;
     padding: 40px;
+}
+
+/*New classes added by Sanjiv Jhangiani - 08/15*/
+.endWord{
+    font: bold;
+    color: red;
+}
+
+.titleTop{
+    background-color: yellow;
 }
 
 h1, h2, h3, h4, h5 {
@@ -23,6 +33,7 @@ h6 {
     margin-top: 10px;
     padding-bottom: 4px;
     background: #f5f5f5;
+    background-color: yellow;
 }
 
 #site-logo {
@@ -45,6 +56,7 @@ h6 {
     font-family: Georgia;
     font-size: 38px;
     line-height: 32px;
+    padding: 4px;
 }
 
 #site-title a {
@@ -54,6 +66,10 @@ h6 {
 #site-title a:hover {
     text-decoration: none;
     color: #333333;
+}
+
+site-tagline{
+    padding: 4px;
 }
 
 #user-info {
@@ -132,6 +148,7 @@ h6 {
 #topblock {
     margin-top: 10px;
     margin-bottom: 30px;
+    /*background-color: yellow;*/
 }
 
 #toplist {
@@ -146,11 +163,11 @@ h6 {
 
 /* Footer */
 
-#footer-line {background:#cccccc; color:#666666;}
+#footer-line {background: #FF00FF; color:#666666;}
 #footer-line a {color:#666666; text-decoration:underline;}
 #footer-line .icon-arrow-up {opacity:0.7; margin-left:4px;}
 #footer-powered {text-align:right;}
-#footer {background:#f9f9f9; text-align:center; margin-bottom:10px;}
+#footer {background:#00BB00; text-align:center; margin-bottom:10px;}
 #footer ul {text-align:left; display:inline-block; width:auto; margin-top:0; margin-bottom:0;}
 #footer li {float:left; list-style-type:none;}
 #footer li li {float:none; clear:both; width:120px; padding:2px 0; margin-right:2px;}

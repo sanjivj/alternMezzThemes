@@ -123,7 +123,7 @@ SESSION_EXPIRE_AT_BROWSER_CLOSE = True
 
 SITE_ID = 1
 
-SITE_TITLE = "Whole Story"
+SITE_TITLE = "The Whole Story"
 
 SITE_TAGLINE = "For those who wonder what happened after..."
 
