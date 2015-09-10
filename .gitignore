@@ -7,4 +7,5 @@ local_settings.py
 /static
 mezzanine-themes/
 deploy/
+grapelli-safe
 grapelli-safe/
