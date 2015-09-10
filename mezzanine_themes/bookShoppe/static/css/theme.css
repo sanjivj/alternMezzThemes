@@ -9,15 +9,28 @@ body {
     padding: 40px;
 }
 
-/*New classes added by Sanjiv Jhangiani - 08/15*/
+/*New classes added by Sanjiv Jhangiani - 08/15 */
+
+body{
+    font-size: 1.8em;    
+}
+
 .endWord{
     font: bold;
     color: red;
 }
 
 .titleTop{
-    background-color: yellow;
+    background-color: #888800;
 }
+
+img{
+    max-height: 100%;
+    max-width: 100%;
+}
+
+
+/***************************/
 
 h1, h2, h3, h4, h5 {
     font-family: Georgia;
@@ -33,7 +46,7 @@ h6 {
     margin-top: 10px;
     padding-bottom: 4px;
     background: #f5f5f5;
-    background-color: yellow;
+    background-color: #FFFF99;
 }
 
 #site-logo {
@@ -127,6 +140,7 @@ site-tagline{
     margin-top: 0px;
     margin-left: 4px;
     margin-bottom: 10px;
+    padding: 4px;
 }
 
 .breadcrumb-custom li {
@@ -137,6 +151,10 @@ site-tagline{
 .breadcrumb-custom .divider {
     margin: 0 5px;
     color: #999999;
+}
+
+.breadcrumb-menu{
+    padding: 4px;
 }
 
 /* Index */
@@ -163,11 +181,11 @@ site-tagline{
 
 /* Footer */
 
-#footer-line {background: #FF00FF; color:#666666;}
+#footer-line {background: #FFFF99; color:#666666;}
 #footer-line a {color:#666666; text-decoration:underline;}
 #footer-line .icon-arrow-up {opacity:0.7; margin-left:4px;}
 #footer-powered {text-align:right;}
-#footer {background:#00BB00; text-align:center; margin-bottom:10px;}
+#footer {background:#00FFFF; text-align:center; margin-bottom:10px;}
 #footer ul {text-align:left; display:inline-block; width:auto; margin-top:0; margin-bottom:0;}
 #footer li {float:left; list-style-type:none;}
 #footer li li {float:none; clear:both; width:120px; padding:2px 0; margin-right:2px;}
