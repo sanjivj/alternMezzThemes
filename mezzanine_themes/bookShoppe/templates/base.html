@@ -47,7 +47,7 @@ $(function() {
 </head>
 <body id="{% block body_id %}body{% endblock %}">
 
-<div id="header" class="container">
+<div id="header" class=.container-fluid">
     <div class="row">
         <div id="site-info" class="span6">
             <div id="site-titles">
@@ -61,7 +61,7 @@ $(function() {
     </div>
 </div>
 
-<div id="main" class="container">
+<div id="main" class=.container-fluid">
 
     {% nevercache %}
     {% for message in messages %}
@@ -103,9 +103,9 @@ $(function() {
     </div><!-- /row -->
     {% endblock %}
 
-</div><!-- /container #main -->
+</div><!-- .container-fluid #main -->
 
-<div id="footer-line" class="container">
+<div id="footer-line" class=.container-fluid">
     <div class="row">
     <div class="span6">
     {% include "includes/footer_text.html" %}
@@ -117,7 +117,7 @@ $(function() {
     </div>
 </div>
 
-<div id="footer" class="container">
+<div id="footer" class=.container-fluid">
     {% page_menu "pages/menus/footer.html" %}
 </div>
 
