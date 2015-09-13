@@ -4,9 +4,10 @@ body {
     background: url(/static/img/bg.png) #cccccc;
 }
 
-.container {
-    background: #00FFFF;
+.container, #main, #header, #footer, #footer-line{
+    background-color: #00FFFF;
     padding: 40px;
+    margin: 30px; 
 }
 
 /*New classes added by Sanjiv Jhangiani - 08/15 */
@@ -29,6 +30,10 @@ img{
     max-width: 100%;
 }
 
+#wrapper{
+    padding: 40px;
+}
+
 
 /***************************/
 
@@ -45,7 +50,7 @@ h6 {
 #header {
     margin-top: 10px;
     padding-bottom: 4px;
-    background: #f5f5f5;
+    /*background: #f5f5f5;*/
     background-color: #FFFF99;
 }
 
