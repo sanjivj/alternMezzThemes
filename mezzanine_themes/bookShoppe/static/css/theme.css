@@ -1,19 +1,20 @@
 /* Html */
 
 body {
-    background: url(/static/img/bg.png) #cccccc;
+    background: url(/static/img/bg.png) #ffcccc;
 }
 
-.container, #main, #header, #footer, #footer-line{
-    background-color: #00FFFF;
+#main, #header, #footer, #footer-line, .form-actions{
+    background-color: #00DEEE;
     padding: 40px;
-    margin: 30px; 
+    margin-left: 30px; 
+    margin-right: 30px; 
 }
 
 /*New classes added by Sanjiv Jhangiani - 08/15 */
 
 body{
-    font-size: 1.8em;    
+    font-size: 2.5em;    
 }
 
 .endWord{
@@ -34,6 +35,9 @@ img{
     padding: 40px;
 }
 
+.form-actions{
+    border-radius: 0px;
+}
 
 /***************************/
 
@@ -51,7 +55,7 @@ h6 {
     margin-top: 10px;
     padding-bottom: 4px;
     /*background: #f5f5f5;*/
-    background-color: #FFFF99;
+    background-color: #FEFE99
 }
 
 #site-logo {
@@ -190,7 +194,7 @@ site-tagline{
 #footer-line a {color:#666666; text-decoration:underline;}
 #footer-line .icon-arrow-up {opacity:0.7; margin-left:4px;}
 #footer-powered {text-align:right;}
-#footer {background:#00FFFF; text-align:center; margin-bottom:10px;}
+#footer {text-align:center; margin-bottom:10px;}
 #footer ul {text-align:left; display:inline-block; width:auto; margin-top:0; margin-bottom:0;}
 #footer li {float:left; list-style-type:none;}
 #footer li li {float:none; clear:both; width:120px; padding:2px 0; margin-right:2px;}

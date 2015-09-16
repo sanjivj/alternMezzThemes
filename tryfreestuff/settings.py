@@ -326,3 +326,26 @@ except ImportError:
     pass
 else:
     set_dynamic_settings(globals())
+    
+####################
+# EMAIL            #
+####################
+
+# Email settings for use with AWS
+#     # TODO: write code...
+# EMAIL_BACKEND = ''
+# AWS_ACCESS_KEY_ID = ''
+# AWS_SECRET_ACCESS_KEY = ''
+# EMAIL_HOST_USER = ''
+# EMAIL_USE_TLS = True
+# EMAIL_HOST = 'email.smtp.us-east-1.amazonaws.com'
+
+
+# Email settings for use with Gmail
+EMAIL_HOST_USER = 'sanjivchristopher@gmail.com'
+EMAIL_USE_TLS = True
+EMAIL_HOST = 'smtp.gmail.com'
+EMAIL_HOST_PASSWORD = 'Cressy1346'
+EMAIL_PORT = 587
+
+
