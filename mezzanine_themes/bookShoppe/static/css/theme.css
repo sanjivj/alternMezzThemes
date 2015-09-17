@@ -19,7 +19,7 @@ body{
 
 .endWord{
     font: bold;
-    color: red;
+    color: blue;
 }
 
 .titleTop{
@@ -37,6 +37,25 @@ img{
 
 .form-actions{
     border-radius: 0px;
+}
+
+.panel{
+    padding: 5px;
+}
+
+.btn-default{
+    /*background-color: #B8005F;*/
+    background-color: #00A000;
+    color: #FFFFFF;
+    /*background: url("/static/img/btnSearch.jpg");*/
+}
+
+.btn-default:hover, .btn-default:active, .btn-default:focus{
+    background-color: #00FF00;
+}
+
+#navigation{
+    font-size: 1.50;
 }
 
 /***************************/
@@ -90,8 +109,9 @@ h6 {
     color: #333333;
 }
 
-site-tagline{
+#site-tagline{
     padding: 4px;
+    font-style: italic;
 }
 
 #user-info {

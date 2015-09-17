@@ -45,11 +45,11 @@ $(function() {
 {% block extra_head %}{% endblock %}
 
 </head>
-<body id="{% block body_id %}body{% endblock %}">
+<body id="{% block body_id %}body{% endblock %}" >
 
-<div id="header" class=.container">
+<div id="header" class=".container">
     <div class="row">
-        <div id="site-info" class="col-md-6">
+        <div id="site-info" class="col-md-4">
             <div id="site-titles">
             {% if settings.SITE_TITLE %}<div id="site-title"><a href="/">{{ settings.SITE_TITLE }}</a></div>{% endif %}
             {% if settings.SITE_TAGLINE %}<div id="site-tagline">{{ settings.SITE_TAGLINE }}</div>{% endif %}
@@ -57,6 +57,9 @@ $(function() {
         </div>
         <div id="navigation" class="col-md-6">
             {% page_menu "pages/menus/dropdown.html" %}
+        </div>
+        <div id="search" class="col-md-2">
+            {% search_form "all" %}
         </div>
     </div>
 </div>
@@ -90,13 +93,13 @@ $(function() {
 
         <div class="col-md-3 right">
 
-            <div class="panel">
-            {% block right_panel %}
-            {% ifinstalled mezzanine.twitter %}
-            {% include "twitter/tweets.html" %}
-            {% endifinstalled %}
-            {% endblock %}
-            </div>
+            <!--<div class="panel">-->
+            <!--{% block right_panel %}-->
+            <!--{% ifinstalled mezzanine.twitter %}-->
+            <!--{% include "twitter/tweets.html" %}-->
+            <!--{% endifinstalled %}-->
+            <!--{% endblock %}-->
+            <!--</div>-->
 
         </div>
 
