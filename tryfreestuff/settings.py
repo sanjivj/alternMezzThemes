@@ -210,6 +210,7 @@ TEMPLATE_DIRS = (os.path.join(PROJECT_ROOT, "templates"),)
 INSTALLED_APPS = (
     "mezzanine_themes.bookShoppe",
     "mezzanine_themes.business",
+    # "mezzanine_themes.classic",
     "grappelli_safe",
     "django.contrib.admin",
     "django.contrib.auth",
